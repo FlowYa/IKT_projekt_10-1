@@ -1,8 +1,12 @@
-# 1. Önálló feladat instrukciója:
+nev= input (' Hogy hívnak ? ')
+kor= str (input('Hány éves vagy ? '))
+kg= int (input('Hány kg vagy ?'))
+cm= float (input(' Hány cm vagy ? '))
 
-# Készíts egy olyan programot, amelyben megmutatod a csoporttársaidnak 
-# # mi a kedvenc ételed elkészítésének menete, azaz receptje.
+print (' Szia '+ nev + ' aki ', kor , 'éves' , kg , 'kg', cm , 'cm magas')
 
-# IDE ÍRD A KÓDOT:
-
-
+if (kg > 90):
+     print ( 'Egyél még')
+else:
+    print(' Csontkollekcio vagy')
+a
